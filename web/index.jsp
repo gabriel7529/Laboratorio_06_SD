@@ -9,9 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Iniciar sesión</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Iniciar Sesión</h1>
+        <form action="LoginServlet" method="post">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
     </body>
 </html>
